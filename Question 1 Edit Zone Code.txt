@@ -1,0 +1,1 @@
+sudo nano /var/named/sarah.duck.co.uk.zone

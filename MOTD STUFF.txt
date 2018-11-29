@@ -1,0 +1,55 @@
+Welcome to Ubuntu 18.04.1 LTS (GNU/Linux 4.15.0-1025-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Nov  8 12:20:46 UTC 2018
+
+  System load:  0.28              Processes:           114
+  Usage of /:   6.2% of 28.90GB   Users logged in:     0
+  Memory usage: 4%                IP address for eth0: 10.0.0.4
+  Swap usage:   0%
+
+ * Security certifications for Ubuntu!
+   We now have FIPS, STIG, CC and a CIS Benchmark.
+
+   - http://bit.ly/Security_Certification
+
+ * Want to make a highly secure kiosk, smart display or touchscreen?
+   Here's a step-by-step tutorial for a rainy weekend, or a startup.
+
+   - https://bit.ly/secure-kiosk
+
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+
+
+
+   - https://bit.ly/secure-kiosk
+
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+50 packages can be updated.
+0 updates are security updates.
+
+
+
+
+
+
+
+
+sudo nano motd.dynamic
+
+

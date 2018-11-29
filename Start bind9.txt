@@ -1,0 +1,5 @@
+sudo service bind9 start
+
+Check bind9 is running
+
+service bind9 status

@@ -1,0 +1,16 @@
+sudo grep Force 52293-0.txt | head | sudo sed -r 's/(.*)Force/Energy/m' >> temp.txt
+
+
+
+
+
+
+
+nano temp.txt
+
+^^ used to open the file where the output is sent
+
+
+wget http://www.gutenberg.org/files/52293/52293-0.txt
+
+^^ used to download the book

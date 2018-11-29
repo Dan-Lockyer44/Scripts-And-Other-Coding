@@ -1,0 +1,43 @@
+#Ip Data for sarah.duck.co.uk zone file
+$TTL 1D
+
+@       IN SOA epc.sarah.duck.co.uk root.sarah.duck.co.uk. (
+                                                2017031301      ; serial
+                                                1D              ; refresh
+                                                1H              ; retry
+                                                1W              ; expire
+                                                3H )            ; minimum
+
+$ORIGIN         sarah.duck.co.uk.
+sarah.duck.co.uk        IN      NS      epc.sarah.duck.co.uk
+epc                     IN      A       127.0.0.53
+server                  IN      A       172.1.16.1
+www                     IN      CNAME   server
+mail                    IN      CNAME   server
+test1                   IN      A       172.1.16.21
+t1                      IN      CNAME   test1
+test2                   IN      A       172.1.16.22
+test3                   IN      A       172.1.16.23
+test4                   IN      A       172.1.16.24
+test5                   IN      A       172.1.16.25
+test6                   IN      A       172.1.16.26
+test7                   IN      A       172.1.16.27
+test8                   IN      A       172.1.16.28
+test9                   IN      A       172.1.16.29
+test10                  IN      A       172.1.16.30
+
+
+; Mail server MX record
+
+sarah.duck.co.uk        IN      MX      10      mail.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail2.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail3.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail4.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail5.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail6.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail7.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail8.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail9.sarah.duck.co.uk
+sarah.duck.co.uk        IN      MX      10      mail10.sarah.duck.co.uk
+
+; Dns script outputs

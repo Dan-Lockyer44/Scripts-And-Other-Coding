@@ -1,0 +1,18 @@
+
+#Used to populate the zone file with 100 Class A addresses starts at number 31
+
+FILE="/var/named/sarah.duck.co.uk.zone"
+COUNT=31
+while test $COUNT -lt 101
+        do
+                echo "record$COUNT\tIN A\t172.16.1.$COUNT" >> $FILE
+                COUNT=$((COUNT+1))
+
+done
+less $FILE
+#Above is used to open the file which the ip's are being written to
+
+
+
+
+

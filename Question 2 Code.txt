@@ -1,0 +1,1 @@
+sudo sh /var/named/dnstest.sh
